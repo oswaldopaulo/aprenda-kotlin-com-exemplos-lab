@@ -32,7 +32,7 @@ fun main() {
 
 
     //PRINTANDO NA TELA
-    println("Inscritos na formação ${formacao.nome}: ${formacao.inscritos.map { it.nome }}. Nível: ${Nivel.INTERMEDIARIO}. Conteúdos abordados: ${formacao.conteudos.map { it.nome}}.")
+    println("Inscritos na formação ${formacao.nome}: ${formacao.inscritos.map { it.nome }}. Nível: ${Nivel.INTERMEDIARIO}. Conteúdos : ${formacao.conteudos.map { it.nome}}.")
 
 
 }
